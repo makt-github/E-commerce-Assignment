@@ -1,0 +1,57 @@
+
+.container{
+    padding: 15px;
+}
+/* Buttons */
+.buy-now-button{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+}
+
+/* Slider Items */
+
+.carousel-indicators li{
+    background-color: black;
+    
+}
+
+/* Smartphone */
+
+#smartphone h6{
+    color: darkorange;
+    text-align: right;
+    
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+    
+}
+
+.card h6{
+    font-weight: 700;
+}
+
+/* Laoptop */
+#laptop h6{
+    color: darkorange;
+    text-align: right;
+
+}
+
+/* Categories */
+
+#categories h3{
+    text-align: center;
+    text-underline-offset: 1px;
+}
