@@ -53,5 +53,6 @@
 
 #categories h3{
     text-align: center;
-    text-underline-offset: 1px;
+    text-decoration: yellow underline;
 }
+
