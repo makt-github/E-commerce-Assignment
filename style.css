@@ -78,7 +78,90 @@ text-align: center;
 	width: 100%;
 }
 
-footer p{
+/* Contact section */
+
+
+
+
+.contact-area h5{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+/* Media Icon Section */
+.media-icon ul{
+    position: absolute;
+    margin-left: 48%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.media-icon ul li{
+    list-style: none;
+    margin: 0 15px;
+   }
+
+.media-icon ul li .fa{
+    font-size: 30px;
+    line-height: 40px;
+    transition: 0.6s;
+    color: #000;
+}
+
+.media-icon ul li .fa:hover{
+    color: white;
+}
+
+
+.media-icon ul li a{
+    position: relative;
+    display: block;
+    height: 110%;
+    width: 160%;
+    border-radius: 150%;
+   /* background-color: goldenrod; */
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.media-icon ul li a:hover{
+    transform: translate(0,-18px);
+}
+ .media-icon ul li:nth-child(1) a:hover{
+     color: white;
+     background-color: #45499d;
+ }
+
+ .media-icon ul li:nth-child(2) a:hover{
+     color: whitesmoke;
+    background-color: #000;
+}
+
+.media-icon ul li:nth-child(3) a:hover{
+    color: whitesmoke;
+    background-color: #0098df;
+}
+
+.media-icon ul li:nth-child(4) a:hover{
+
+    background-color: #55aa7f;
+}
+
+.media-icon ul li:nth-child(5) a:hover{
+
+    background-color: #2d92f6;
+}
+
+
+
+footer {
     text-align: center;
     color: gray;
+    padding-top: 15px;
 }
