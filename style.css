@@ -1,58 +1,84 @@
-
-.container{
-    padding: 15px;
+.container {
+	padding: 15px;
 }
 /* Buttons */
-.buy-now-button{
-    background-color: black;
-    color: blanchedalmond;
-    border-radius: 10px;
-    border: none;
-    padding: 5px 10px;
+.buy-now-button {
+	background-color: black;
+	color: blanchedalmond;
+	border-radius: 10px;
+	border: none;
+	padding: 5px 10px;
 }
 
 /* Slider Items */
 
-.carousel-indicators li{
-    background-color: black;
-    
+.carousel-indicators li {
+	background-color: black;
 }
 
 /* Smartphone */
 
-#smartphone h6{
-    color: darkorange;
-    text-align: right;
-    
+#smartphone h6 {
+	color: darkorange;
+	text-align: right;
 }
 
-.card{
-    border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
+.card {
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px lightgray;
 }
 
-.card-footer{
-    background-color: white;
-    border-top: none;
-    
+.card-footer {
+	background-color: white;
+	border-top: none;
 }
 
-.card h6{
-    font-weight: 700;
+.card h6 {
+	font-weight: 700;
 }
 
 /* Laoptop */
-#laptop h6{
-    color: darkorange;
-    text-align: right;
-
+#laptop h6 {
+	color: darkorange;
+	text-align: right;
 }
 
 /* Categories */
 
-#categories h3{
-    text-align: center;
-    text-decoration: yellow underline;
+.cat1 h3 {
+
+text-align: center;
+
+
+}
+.cat2{
+	margin-top:  30px;
+	padding: 15px;
 }
 
+/* fix */
+.catagories-content {
+	display: flex;
+	justify-content: space-evenly;  /*For align all items Horizontally  */
+	align-items: center;   /*For align all items vertically  */
+}
+
+.item {
+	height: 170px;
+	width: 170px;
+	box-shadow: 5px 5px 10px #ddd;
+	display: flex;
+	align-items: center;   /*For align all items vertically  */
+	justify-content: center;  /*For align all items Horizontally  */
+	margin-bottom: 24px;
+}
+
+.cat3 img{
+	width: 100%;
+}
+
+footer p{
+    text-align: center;
+    color: gray;
+}
